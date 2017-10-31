@@ -1,4 +1,4 @@
-#Take Photo with custom save path shortcut
+# Take Photo with custom save path shortcut
 
 [Reddit Post](https://www.reddit.com/r/tasker/comments/79sj7y/how_to_take_photo_with_custom_save_path_shortcut/)
 Thanks to /u/kholdstayr for solving the camera intent issue I was having in my [previous Help post](https://www.reddit.com/r/tasker/comments/786dk5/help_camera_intent_custom_save_path/).
@@ -6,7 +6,7 @@ Thanks to /u/kholdstayr for solving the camera intent issue I was having in my [
 This is broken down into 2 Tasks. 1 a simple shortcut task passes the save path and the date format and the other issues the Camera intent and then the media scanner intent so the new photo shows in your Gallery apps.
 
 
-#Camera Task
+## Camera Task
 
 Fetch your device specific SDCard path
 
@@ -78,7 +78,7 @@ A reminder as to where the file is stored
 
 ***
 
-#Shortcut Task
+## Shortcut Task
 
 **Note:** the path must not end in a / or the path will build as /storage/emulated/0/Pictures/Receipts//IMG_
 
