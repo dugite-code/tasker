@@ -9,8 +9,8 @@
 			<code>130</code>
 			<Str sr="arg0" ve="3">Camera</Str>
 			<Int sr="arg1" val="50"/>
-			<Str sr="arg2" ve="3">/Pictures/Receipts</Str>
-			<Str sr="arg3" ve="3">yyyyMMdd_kkmmss</Str>
+			<Str sr="arg2" ve="3">yyyymmdd_HHnnss</Str>
+			<Str sr="arg3" ve="3">/Pictures/Receipts</Str>
 			<Str sr="arg4" ve="3">%uri</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
